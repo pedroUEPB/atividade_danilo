@@ -10,7 +10,7 @@ function About() {
                 <h2 className="text">
                     Desenvolvido para controle de alunos em projetos.
                 </h2>
-                <p className="team">Equipe: João Paulo, Maria Vanessa e Pedro Henrique</p>
+                <p className="team">Equipe: Danilo Medeiros</p>
             </div>
         </div>
     );

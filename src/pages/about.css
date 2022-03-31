@@ -7,16 +7,24 @@
 }
 
 .aboutTitle{
+    display: flex;
     margin: 0 auto;
-    background: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
     padding: 30px;
     border-radius: 5px;
-    display: flow-root;
     box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+}
+
+.aboutTitle .text{
+    color: white;
 }
 
 .team{
     text-align: center;
-    color: #c5ecfd;
     margin-top: 5%;
 }

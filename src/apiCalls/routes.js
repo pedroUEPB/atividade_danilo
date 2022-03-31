@@ -11,7 +11,7 @@ const generateAccessToken = (user) => {
 
 // user routes
 //login
-const API = "http://localhost:5000/"
+const API = "https://atividade-back-test.herokuapp.com/"
 export const login = async (user) => {
     try{
         const res = await axios.get(API + `users?username=${user.username}`);
