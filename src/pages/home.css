@@ -1,0 +1,46 @@
+.homeContainer{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.homeTableContainer{
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tableBar{
+    display: flex;
+    width: 100%;
+}
+
+.homeTable{
+    width: 80%;
+}
+
+.tableHead{
+    border-bottom: 1px solid lightgray;
+}
+
+.tableTH{
+    text-align: center;
+}
+
+.tableBody{
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.tableRow, .tableRowImpar{
+    text-align: center;
+    cursor: pointer;
+}
+
+.tableRowImpar{
+    background-color: #ebebeb;
+}

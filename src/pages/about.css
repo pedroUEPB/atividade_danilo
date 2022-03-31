@@ -1,0 +1,22 @@
+.aboutContainer{
+    position: absolute;
+    margin-top: 7%;
+    width: 100%;
+    max-width: 200%;
+    padding: 0 20px;
+}
+
+.aboutTitle{
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flow-root;
+    box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+
+.team{
+    text-align: center;
+    color: #c5ecfd;
+    margin-top: 5%;
+}

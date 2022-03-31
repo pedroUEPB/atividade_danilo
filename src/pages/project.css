@@ -1,0 +1,38 @@
+.projectContainer{
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.projectWrapper{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+.projectButtons{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.projectParticipants{
+    width: 100%;
+}
+
+.projectTable{
+    width: 100%;
+}
